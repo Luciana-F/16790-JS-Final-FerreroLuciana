@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f3fde3e629.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Almendra Nails</title>
+</head>
+
+<body>
+  <header class="encabezado">
+    <ul class="menu">
+      <li><a href="#nosotros"> <img src="media/logoAlmendra-1.png" alt="logo almendra" class="logo"></a></li>
+      <li><a href="#nosotros"> Nosotros</a></li>
+      <li><a href="#servicios"> Servicios</a></li>
+      <li><a href="#ubicacion"> Ubicación</a></li>
+      <li><a href="#turnos">Turnos </a></li>
+      <li></li>
+      <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+  </header>
+  <main class="cuerpo">
+    <section class="presentacion">
+    </section>
+    <section class="nosotros" id="nosotros">
+      <h2 class="titulo-nosotros"> Nosotros </h2>
+      <p>Un salón de belleza de manos y pies especialmente dedicado a tus uñas para que tengan la belleza que vos te
+        mereces. Situado estrategicamente en varios puntos de Buenos Aires para que siempre nos tengas a mano. Contamos
+        con una amplia gama de colores y las últimas tendencias de manicuría, pedicuría y nail art. Además de los
+        tratamientos tradicionales ofrecemos una alta linea premium de productos Spa.<br>Las invitamos a disfrutar
+        nuestro mundo de colores y tratamientos de alta calidad.</p>
+    </section>
+    <section class="servicios" id="servicios">
+      <h2 class="titulo-servicios">Servicios</h2>
+      <div class="contenedor-servicios">
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio1">
+          <h3 class="titulo-servicio">CLÁSICA</h3>
+          <p>Incluye limado, retirado de cutículas, esmaltado clasico e hidratación.</p>
+        </div>
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio2">
+          <h3 class="titulo-servicio">SPA DE MANOS</h3>
+          <p>Exfoliación, baño de parafina y masaje relax</p>
+        </div>
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio3">
+          <h3 class="titulo-servicio">GEL BREAK</h3>
+          <p>Tratamiento para uñas dañadas.</p>
+        </div>
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio4">
+          <h3 class="titulo-servicio">GEL COLOR</h3>
+          <p>Sistema de gel brinda brillo y dureza, duración de la laca 15 días.</p>
+        </div>
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio5">
+          <h3 class="titulo-servicio">NAIL ART</h3>
+          <p>Decorá tus uñas para que sean únicas.</p>
+        </div>
+        <img src="media/servicios/servicio.jfif" alt="baby-boomer" class="img-servicios">
+        <div class="servicio6">
+          <h3 class="titulo-servicio">ESCULPIDAS</h3>
+          <p>Uñas de acrílico que permiten darle el largo y la forma que quieras.</p>
+        </div>
+      </div>
+    </section>
+    <section class="ubicacion" id="ubicacion">
+      <h2 class="titulo-ubicacion">Ubicación</h2>
+      <div class="contenedor-sucursales">
+        <img src="media/sucursales/sucursal1.jfif" alt="sucursal" class="img-sucursales">
+        <div class="sucursal1">
+          Caballito
+        </div>
+        <img src="media/sucursales/sucursal2.jpg" alt="sucursal" class="img-sucursales">
+        <div class="sucursal2">
+          Palermo
+        </div>
+        <img src="media/sucursales/sucursal3.jfif" alt="sucursal" class="img-sucursales">
+        <div class="sucursal3">
+          Belgrano
+        </div>
+        <img src="media/sucursales/sucursalcuatro.jpg" alt="sucursal" class="img-sucursales">
+        <div class="sucursal4">
+          Vicente Lopez
+        </div>
+      </div>
+    </section>
+    <section class="turnos" id="turnos">
+      <h2 class="titulo-izquierda">
+        Turnos
+      </h2>
+      <button id="btnMostrar" class="btn btn-dark">Mostrar</button>
+      <article id="contenedorTurnos">
+      <div id="contenedorForm">
+        <form action="" autocomplete="off" id="formulario">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Nombre">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" placeholder="Apellido">
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" placeholder="Telefono">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" placeholder="nombre@algo.com.ar">
+          <label for="fecha">Fecha</label>
+          <input type="date" name="Fecha" id="fecha">
+        </form>
+        <div id="carrito">
+          <button class="botones" id="clasica">Clasica - $100</button>
+          <button class="botones" id="spamanos">Spa de Manos - $200</button>
+          <button class="botones" id="gelbreak">Gel Break - $300</button>
+          <button class="botones" id="gelcolor">Gel Color - $400</button>
+          <button class="botones" id="nailart">Nail Art - $500</button>
+          <button class="botones" id="esculpidas">Esculpidas - $600</button>
+          <div id="total">
+            <p class="p1">TOTAL</p>
+            <p class="p2">$0</p>
+          </div>
+        </div>
+      </div>
+      <button class="boton btn btn-dark" id="btnEnviar">Enviar</button>
+      <button class="boton btn btn-dark" id="btnBorrar">Borrar</button>
+    </article>
+    </section>
+    <footer class="footer" id="footer">
+      <p>Todos los derechos reservados</p>
+      <p>Creada por: <a href="https://ar.linkedin.com/in/luciana-ferrero-b65724214" target="_blank">Luciana Ferrero</a>
+      </p>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
